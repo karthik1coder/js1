@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	h2
+	{
+	color: orangered;
+	}
+</style>
+	</head>
+<body>
+
+<h2 id="v1"></h2>
+<h2 id="v2"></h2>
+<h2 id="v3"></h2>
+<script>
+
+const f1 = {firstname:"brock", lastname:"lesnar", officeAdress:"brookyln"};
+
+
+
+const f2 = {firstname:"drew", lastname:"mcyntrye", officeAdress:"scotland"};
+
+	const f3 = {firstname:"roman", lastname:"reigns", officeAdress:"new york"};
+
+	var x=JSON.stringify(f1);
+document.getElementById("v1").innerHTML=x;
+	var x=JSON.stringify(f2);
+document.getElementById("v2").innerHTML=x;
+	var x=JSON.stringify(f3);
+document.getElementById("v3").innerHTML=x;
+
+</script>
+
+</body>
+</html> 
